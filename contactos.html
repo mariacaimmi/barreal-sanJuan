@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="estilos.css">
+    <title>contacto</title>
+</head>
+<header>
+<div id="barreal">
+    <img src="imgs/bannerbarreal.jpg" alt="barreal"> 
+</div>
+
+<h1>Barreal san juan</h1>
+
+</header>
+<nav>
+        <ul>
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="historiabarreal.html">Conocé</a>
+                <ul>
+                <li><a href="historiabarreal.html">Historia</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                </ul>
+            </li>
+            <li><a href="lugares.html">Lugares</a>
+                <ul>
+                <li><a href="lugares.html#cerroAlcazar">Cerro el Alcázar</a></li>
+                <li><a href="lugares.html#pampaLeoncito">Pampa el leoncito</a></li>
+                <li><a href="lugares.html#cerroMercedario">Cerro Mercedario</a></li>
+                <li><a href="lugares.html#lagunaTurquesa">Laguna Turquesa</a></li>
+                <li><a href="lugares.html#cerroColorado">Cerro colorado</a></li>
+                </ul>
+            </li>
+            <li><a href="mapas.html">Mapas</a></li> 
+            <li><a href="contactos.html" id="actual">Contacto</a></li>                     
+        </ul>      
+    </nav>
+<body>
+  <main>
+    <section class="contacto">
+       <h2 class="title">Contacto</h2> <hr>
+       <article  id="izquiera" class="texto">
+        <p >Si estuviste en Barreal y queres compartirnos tu experiencia podés completar tus datos y contarnos lo que más te gustó del lugar!</p>
+        <p>También podés adjuntarnos una foto!</p>
+      
+        
+        <p>Si tenes alguna duda envianos un email a la siguiente dirección de correo electrónico: <a href="mailto:barrealturism@gmail.com">barrealturismo@gmail.com</a></p>
+
+        </article>
+        
+        <article id="derecha" class="texto">
+        <form action="gracias.html" method="post" enctype="multipart/form-data" id="formulario">
+            <div>
+              <label for="Nombre"><p>Nombre:</p></label>
+              <input type="text" id="Nombre" placeholder="Juan Perez"/>
+            </div>
+            
+           <fieldset>
+                <legend>¿Es la primera vez que visitas Barreal?</legend>
+            <div>
+               
+                <input type="radio" name="primeravez" value="si" checked/>Si
+            </div>
+            
+            <div>
+                <input type="radio" name="primeravez" value="no"/>No
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend>¿Qué lugares conociste?</legend>
+            <div>
+           
+            
+                <input type="checkbox" name="turismo" id="ciudad" value="ciudad"/>
+                <label for="ciudad">Ciudad de San Juan</label>
+            </div>
+            <div>
+                <input type="checkbox" name="turismo" id="barreal" value="barreal"/>
+                <label for="barreal">Barreal</label>
+            </div>
+            <div>
+                <input type="checkbox" name="turismo" id="valle" value="valledelaluna"/>
+                <label for="valle">Valle de la Luna</label>
+            </div>
+            <div>
+                <input type="checkbox" name="turismo" id="pampa" value="leoncito"/>
+                <label for="pampa">Pampa el Leoncito</label>
+                
+            </div>
+           </fieldset>
+            
+          
+            <div>
+                <label for="experiencia">Experiencias:</label>
+                <textarea name="experiencia" id="experiencia" cols="30" rows="9"></textarea>
+                
+            </div>
+            
+            <div>
+                
+                <input type="file" name="foto" accept="image/jpg" />
+            </div>
+          
+            <div>
+          	 
+          		<input type="submit" value="Enviar &#10148;">
+          	</div>       
+        </form>
+        </article>
+    </section>
+
+  </main>
+  
+  <footer>
+   
+    <h3 id="yo"> María Luján Caimmi </h3>
+      
+     <ul id="redes">
+        <li>
+            <a href="https://www.facebook.com/mcaimmi/">facebook</a>
+        </li>
+        <li>
+            <a href="#">Pinterest</a>
+        </li>
+        <li>
+            <a href="#">linkeding</a>
+        </li>
+        <li>
+            <a href="https://twitter.com/CaimmiMaju">Twitter</a>
+        </li>
+    </ul>
+        <hr>
+    <ul>         
+        <li>
+            <a href="mailto:maria.caimmi@davinci.edu">maria.caimmi@davinci.edu</a>
+        </li>
+        <li>
+           1996- La Plata.
+        </li>
+        <li>
+           DCV UNLP.
+        </li>
+        <li>
+           Escuela DaVinci.
+        </li>
+    </ul>
+        
+    </footer>
+   
+    
+</body>
+</html>

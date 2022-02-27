@@ -1,0 +1,690 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@300&display=swap');*/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
+
+
+/*body*/
+body{
+    margin: 0;
+	background-color: white;
+    width: 1270px;
+}
+/*imagenes*/
+
+.principal>figure{
+  margin: auto;
+    
+    display: inline-block;
+
+}
+
+/*info de portada*/
+
+.principal>h2{
+  position:absolute;
+  display: inline-block;
+  text-align:right;
+    background-color:#00000087;
+     font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    color: white;
+   margin: 145px 80px;
+    padding: 2px 3px;
+   font-weight: 900;
+    
+} 
+h2 a {
+    text-decoration: none;
+}
+
+h2 a:hover {
+    background-color: black;
+    
+}
+h2 a:visited{
+    color: white;
+}
+
+
+
+
+.principal>p{
+    position:absolute;
+  display: inline-block;
+  text-align:right;
+    
+     font-family: 'Roboto slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:black;
+   margin: 188px 80px;
+    padding: 1px 4px;
+    font-style: italic; 
+}
+
+.principal h3{
+    position:absolute;
+  display: inline-block;
+    
+  text-align:right;
+    background-color:#00000087;
+     font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    color: white;
+   margin: 145px 80px;
+    padding: 2px 3px;
+   font-weight: 900;
+    
+}
+
+
+.principal{
+    margin: 0;
+    padding: 0;
+}
+
+
+h3 a {
+    text-decoration: none;
+}
+
+h3 a:hover {
+    background-color: black;
+    
+}
+h3 a:visited{
+    color: white;
+}
+p a{
+    text-decoration: none;
+    
+}
+/*nose
+#pampa>figure:nth-of-type(1){
+   float: right;
+    margin: 190px 50px 0;
+   
+}
+
+#pampa>figure:nth-of-type(2){
+    
+    float: right;
+    margin: 360px auto;
+}*/
+
+
+h1{
+    display: none;
+   margin: 0;
+	
+}
+
+.barreal{
+    text-align: center;
+    background: beige;
+    visibility: visible;
+}
+
+
+  /*botonera*/  
+
+#actual{
+	color:#ff6100a6;
+}
+
+
+
+nav{
+    background-color:white;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+    position: sticky;
+	top: 0;
+	z-index: 10;
+    width: 1270px;
+    
+}
+
+
+
+nav ul li{ 
+    list-style: none;
+    display:inline-block;
+    padding:0 10px;
+}
+
+nav ul li a{
+    
+    font-family: 'Barlow', serif;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color:#6c6ec1;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: block;
+    font-weight: 400;
+    
+    
+}
+
+
+nav ul li{
+    position: relative;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;    
+    background: white;
+    padding: 0 2px;
+    
+}
+nav ul li ul a{
+    text-align: left;
+    width: 75px;
+}
+
+nav li:hover ul{
+	display: block;
+}
+
+nav ul li ul li{
+	display:block;
+}
+
+nav ul li a:hover
+{
+    background-color:floralwhite;
+}
+
+/*footer*/
+
+footer{
+    width:1200px;
+    height: 300px;
+    margin: 60px auto 0;
+    background-color: antiquewhite;
+    margin-bottom: 40px;
+}
+#yo{
+    
+    font-family: 'Francois One', sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 48px;
+    color: #888888;
+    vertical-align: middle;
+}
+
+
+hr{
+    color: darkgray; 
+    
+}
+ul li{
+   list-style: none;
+   font-family: 'roboto slab';
+   font-size: 16px;
+   margin-left: 10px;
+     
+}
+ul li a{
+    text-decoration: none;
+    
+}
+#redes{
+    display: inline-block;
+    margin-left: 480px;
+}
+#redes li{
+    
+    
+    margin-right: 20px;
+    margin-top: 0px;
+    list-style: none;
+    overflow: auto;
+    display: inline-block;
+    
+}
+#redes li a{
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-image: url(imgs/sprite.png);
+    height: 46px;
+    width: 46px;
+    font-size: 0;
+    display: inline-block;
+}
+#redes li:nth-child(1) a{
+    background-position:-8px top;
+}
+#redes li:nth-child(2) a{
+    background-position: -327px top;
+}
+#redes li:nth-child(3) a{
+    background-position: -262px top;
+}
+#redes li:nth-child(4) a{
+    background-position: -517px top;
+}
+#redes li:nth-child(4) a:hover{
+    background-position: -517px;
+}
+#redes li:nth-child(1) a:hover{
+    background-position:-8px;
+}
+#redes li:nth-child(2) a:hover{
+    background-position: -327px;
+}
+#redes li:nth-child(3) a:hover{
+    background-position: -262px;
+}
+
+
+
+
+
+/*historia*/
+
+.historia h2{
+    font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    display: inline-block;
+    margin-left: 90px;
+    
+}
+.historia h2:first-child{
+    margin-top: 60px;
+}
+
+.historia p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    margin-left: 90px;
+    width: 830px;
+    
+}
+.historia h3{
+    font-family: 'Barlow', serif;
+    font-size: 22px;
+    font-weight: 900px;
+    display: inline-block;
+    margin-left: 90px;
+    margin-bottom: 2px;
+}
+.historia figure{
+    margin-left: 90px;
+}
+
+/*lugares de Barreal*/
+
+
+
+
+.lugares{
+    margin: 0;
+	padding: 0;
+	width: 1270px;
+    
+}
+.lugares article{
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    
+    margin:0;
+}
+.lugares figure{
+    margin: 0;
+    filter: brightness(30%) contrast(110%) drop-shadow(10px 10px 5px #000000);
+    
+}
+.lugares figure:hover{
+   filter: drop-shadow(10px 10px 5px #000000);
+   
+}
+.lugares h2{
+    display: none;
+}
+
+
+.lugares h3{
+ 
+    display: none;
+}
+
+
+
+
+.texto{
+    font-family: 'Roboto slab', serif;
+    font-size: 14px;
+    margin-left: 80px;
+  
+}
+.largo{
+     width: 820px;
+}
+
+
+.pampa{
+    display: inline-block;
+    width: 1190px;
+    margin-top: 15px;
+    
+}
+.pampa figure{
+    margin: 12px;
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pampa h6{
+ font-size: 16px; 
+    margin-bottom: 6px;
+}
+
+
+
+#alcazar figure{
+    margin: 12px;
+    width: 340px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#alcazar{
+    display: inline-block;
+    width: 1190px;
+    margin-top: 15px;
+    
+}
+.title{
+     font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    
+}
+/*section h4{
+    font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    
+    
+}*/
+section >h4{
+    margin-top: 100px;
+}
+
+
+h5{
+     font-family: 'Barlow', serif;
+    font-size: 26px;
+    
+    
+    
+}
+
+h6{
+    font-family: 'Barlow', serif;
+    font-size: 20px;
+    margin:16px 0 17px;
+}
+
+#laguna {
+    display: inline-block;
+    width: 1190px;
+    
+}
+#laguna div{
+   margin: 12px;
+   
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#grandes div{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;    
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 2000px;
+}
+
+#grandes div img{
+    position: absolute;
+    top:50px;
+    border-left:50px;
+}
+
+#grandes div:target{
+    display: block;
+    z-index: 20px; 
+}
+
+#grandes a{
+    position: absolute;
+   
+    height: 25px;
+    line-height: 100%;
+    background-color: #e6c8a9;;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: justify;
+}
+
+#grandes a:visited{
+    text-decoration: none;
+    color: black;
+}
+.cerrar{
+    top: 85px;
+    right: 40px;
+    
+}
+
+.anterior{
+    top: 50%;
+    margin-top: -25px;
+    left: 40px;
+    
+}
+.siguiente{
+    top: 50%;
+    margin-top: -25px;
+   right: 40px;
+    
+}
+#actividades{
+    margin-left: 80px;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#actividades article{
+     
+    width:1110px;
+    display: inline-block;
+   vertical-align: top;
+    
+}
+
+
+#actividades figure{
+    vertical-align: top;
+    width: 276px;
+    display: inline-block;
+    margin-left: 0px;
+   
+}
+
+figure p{
+    font-family: 'Roboto slab', serif;
+    font-size: 14px;
+    
+    display: block;
+    
+}
+#actividades h3{
+    font-size: 20px;
+    font-family: 'Barlow', serif;
+}
+#publicidad{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#publicidad img{
+   
+ 
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.title_{
+      font-family: 'Barlow', serif;
+    font-size: 26px;
+    font-weight: 900px;
+    margin-left: 80px;
+    margin-bottom: 3px;
+    
+}
+#mapa{
+    
+    width: 650px;
+   margin-left: 80px; 
+  
+   display: inline-block;
+    
+}
+#mapa article{
+    background-color: #f7f2eb;
+    margin: 2px;
+     padding-left: 10px; 
+    padding-top: 5px;
+}
+
+#mapa article p{
+    height: 100px;
+}
+
+
+
+#mapa article a{
+    width: 50px;
+    text-decoration: none;
+    color: green;
+    font-size: 21px;
+    font-weight: 300;
+    
+    display: inherit;
+}
+#mapa h3{
+    font-weight: 600;
+}
+#mapa article:last-child{
+    background-color: white;
+    margin-top: 90px;
+}
+
+.contacto h2{
+    text-align: center;
+    display: block;
+    
+}
+
+
+#izquiera{
+    
+    width: 443px;
+    text-align: center;
+    margin-top: 35px;
+    margin: auto;
+}
+
+#derecha{
+   
+    width: 388px;
+    margin:auto;
+     margin-top: 70px;
+    
+    
+}
+
+#formulario textarea{
+    
+    
+     margin-bottom: 20px;
+     margin-top: 10px;
+     padding: 10px;
+     font-family: inherit;
+      border: 1px solid;
+     text-shadow: none;
+    
+   width: 280px;
+    resize: none;
+    display: inherit;
+}
+
+
+#formulario div p:nth-child(1){
+    
+    margin-bottom: 20px;;
+    display: inline-block;
+    width: 60px;
+}
+#experiencia{
+    display: inline-block;
+    width: 450px;
+    vertical-align: top;
+}
+
+fieldset{
+    display: inline-block;
+    width: 166px;
+    vertical-align: top;
+    border-style: none;
+    margin: 0;
+    
+}
+
+#formulario input[type=submit]{
+    width: 100px;
+    height:30px;
+    
+}
+#formulario input:focus{
+    border-color: cadetblue;
+}
+
+#formulario input[type=submit]:hover{
+    background-color: cadetblue;
+}
+
+
+
